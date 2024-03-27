@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div>
+        <ul class="navbar">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="./about.html">About</a></li>
+        </ul>
+        <hr />
+        <h1>Contact Page</h1>
+        <hr />
+        <form action="./index.html" method="GET">
+            <fieldset>
+                <h3>Fill in below form</h3>
+                <label> First Name:
+                    <input type="text" name="fname" />
+                </label>
+                <br />
+                <br />
+                <label> Last Name:
+                    <input type="text" name="fname" />
+                </label>
+                <br />
+                <br />
+                <fieldset>
+                    <legend>Select Your Course</legend>
+                    <label>
+                        <input type="radio" name="Course" value="html">HTML
+                    </label>
+                    <label>
+                        <input type="radio" name="Course" value="CSS">CSS
+                    </label>
+                    <label>
+                        <input type="radio" name="Course" value="JS">JavaScript
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Select Your Framework</legend>
+                    <label>
+                        <input type="radio" name="Framework" value="react">React.js
+                    </label>
+                    <label>
+                        <input type="radio" name="Framework" value="angular">Angular
+                    </label>
+                </fieldset>
+
+                <br />
+                <br />
+                <button>Submit</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
